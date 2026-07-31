@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+}
+
+body {
+  background-color: #0b132b;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2rem;
+  background: #1c2541;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid #334155;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #38bdf8;
+}
+
+.logo span {
+  color: #f43f5e;
+}
+
+nav a {
+  margin-left: 1.5rem;
+  font-weight: 600;
+  color: #cbd5e1;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+/* Container */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background: #1c2541;
+  border-radius: 20px;
+  margin-bottom: 3rem;
+  border: 1px solid #334155;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #94a3b8;
+  max-width: 650px;
+  margin: 0 auto 2rem auto;
+}
+
+.btn-main {
+  background: #f43f5e;
+  color: #ffffff;
+  padding: 0.9rem 2.2rem;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  display: inline-block;
+}
+
+.btn-main:hover {
+  background: #e11d48;
+}
+
+/* Section Title & Grid */
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.card {
+  background: #1c2541;
+  padding: 2rem;
+  border-radius: 16px;
+  border: 1px solid #334155;
+  text-align: center;
+}
+
+.card-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  font-size: 1.3rem;
+  color: #38bdf8;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  color: #94a3b8;
+  font-size: 0.95rem;
+}
+
+/* Contact Section */
+.contact-box {
+  background: #1c2541;
+  border-radius: 20px;
+  padding: 3rem 1.5rem;
+  text-align: center;
+  border: 1px solid #38bdf8;
+}
+
+.subtext {
+  color: #94a3b8;
+  margin-top: 0.5rem;
+}
+
+.phone-group {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+.phone-btn {
+  background: #0b132b;
+  color: #38bdf8;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border: 1px solid #38bdf8;
+}
+
+.phone-btn:hover {
+  background: #38bdf8;
+  color: #0b132b;
+}
+
+.qr-text {
+  color: #64748b;
+  font-size: 0.9rem;
+}
+
+.qr-img {
+  width: 170px;
+  height: 170px;
+  margin-top: 1rem;
+  background: #fff;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem;
+  color: #64748b;
+  font-size: 0.9rem;
+  border-top: 1px solid #1c2541;
+  margin-top: 3rem;
+}
